@@ -1,4 +1,4 @@
-# Caesar Cipher
+# Followed instructions on FreeCodeCamp to create this Caesar Cipher script in 57 steps
 text = 'Hello Zaira'
 shift = 3
 
@@ -8,6 +8,7 @@ def caesar(message, offset):
 
     for char in message.lower():
         if char == ' ':
+# ALSO - char.isalpha() to detect only space
             encrypted_text += char
         else:
             index = alphabet.find(char)
