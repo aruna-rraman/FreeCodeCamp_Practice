@@ -1,4 +1,4 @@
-# Followed instructions on FreeCodeCamp to create this Caeser Cipher and Vigenere Cipher script in 96 steps
+# Followed instructions on FreeCodeCamp to create this Vigenere Cipher script from Caesar Cipher script in 39 steps
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'happycoding'
 
