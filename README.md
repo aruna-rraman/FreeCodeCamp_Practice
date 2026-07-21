@@ -9,4 +9,4 @@ The goal of this repository is to:
 - Improve problem-solving skills.
 
 - ## Topics Covered
-- Python
+- Python - Learn string manipulation by building cipher
