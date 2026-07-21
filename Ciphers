@@ -20,6 +20,8 @@ def vigenere(message, key, direction=1):
             # Define the offset and the encrypted/decrypted letter
             offset = alphabet.index(key_char)
             index = alphabet.find(char)
+            # modulo operator used - preventing index out of bounds errors
+            # creating loop where index resets index to zero when reaching end of alphabet string
             new_index = (index + offset*direction) % len(alphabet)
             final_message += alphabet[new_index]
     
